@@ -29,3 +29,11 @@ html {
   font-weight: 300;
   src: url('./fonts/Ubuntu-Light.ttf') format('ttf');
 }
+
+[data-gallery="on"] {
+  @apply border-blue-700;
+}
+
+[data-gallery="off"] {
+  @apply cursor-pointer hover:border-blue-400;
+}
