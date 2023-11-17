@@ -15,6 +15,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "flowbite": "^2.1.1"
+    "flowbite": "^2.1.1",
+    "pannellum": "^2.5.6"
   }
 }
