@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         product: resolve(__dirname, 'product.html'),
+        services: resolve(__dirname, 'services.html'),
       },
     },
   },

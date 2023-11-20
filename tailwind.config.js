@@ -6,6 +6,7 @@ export default {
   content: [
     "./index.html",
     "./product.html",
+    "./services.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js",
   ],
