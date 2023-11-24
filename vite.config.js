@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         product: resolve(__dirname, 'product.html'),
         services: resolve(__dirname, 'services.html'),
+        mall: resolve(__dirname, 'mall.html'),
       },
     },
   },
