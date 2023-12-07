@@ -138,7 +138,10 @@
     <main class="border rounded-lg">
       <section class="flex flex-col lg:flex-row lg:gap-4">
         <div class="lg:w-1/2 p-2 md:p-4">
-          <img id="main-image" class="w-full aspect-video object-cover" src="/img/apple-watch.png">
+          <div id="main-image-wrapper">
+            <img id="main-image" class="w-full aspect-video object-cover" src="/img/apple-watch.png">
+            <model-viewer id="model-viewer" class="hidden w-full aspect-video min-h-[12rem] md:min-h-[16rem]" src="/reloj.glb" autorotate camera-controls touch-action="pan-y" shadow-intensity="1"></model-viewer>
+          </div>
           <div class="flex flex-wrap justify-center p-4 gap-4 mt-4">
             <img data-gallery="on" class="h-10 lg:h-20 p-1 border-2 rounded-lg transition-colors"
               src="/img/apple-watch.png">
@@ -146,6 +149,9 @@
               src="/img/apple-watch1.png">
             <img data-gallery="off" class="h-10 lg:h-20 p-1 border-2 rounded-lg transition-colors"
               src="/img/apple-watch2.webp">
+            <button data-gallery="off" data-model="true" class="h-10 lg:h-20 p-1 border-2 rounded-lg transition-colors">
+              <span class="text-blue-600 font-bold px-8 text-lg lg:text-2xl">VER 3D</span>
+            </button>
           </div>
         </div>
         <div class="lg:w-1/2 p-2 md:p-4">
